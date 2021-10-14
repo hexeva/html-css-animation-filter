@@ -16,17 +16,42 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+/* ex-2 solution */
+.ex-2-square:active{
+    width: 1000px;
+
+}
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+/* ex-3 solution */
+
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition:all 0.8s ease 0s;
 }
+
+/* ex 4 solution */
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
